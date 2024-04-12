@@ -1,5 +1,14 @@
 # cs393r_starter
 
+## Docker File Renaming instructions
+docker file originally from: https://github.com/DFKI-NI/turtlebot4_dev_container/tree/main
+
+While I was testing I renamed the folder to cs393r_starter_ros2, which you will have to do to run the docker build.
+
+The docker builds, but I have not found the special way to finesse the image into existance.
+
+created a docker run command in the makefile called "docker_build_image" to call it use "make docker_build_image", it doesn't work but I was trying to pull it from the devcontainer json information in the github linked.
+
 ## Using this Repo
 You will be using a duplicate of this repo for all development in the class. This repo provides starter code for the ROS subscriptions, publishers and control loops you will be using.
 

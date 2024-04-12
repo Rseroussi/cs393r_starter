@@ -180,8 +180,8 @@ RUN echo "source /opt/ros/humble/setup.bash\n" \
 
 
 # build deps
-RUN /bin/bash -lc "cd amrl_msgs && make"
-RUN /bin/bash -lc "cd ut_automata && make"
+# RUN /bin/bash -lc "cd amrl_msgs && make"
+# RUN /bin/bash -lc "cd ut_automata && make"
 
 # add launcher
 # ENV CS393R_DOCKER_CONTEXT 1
